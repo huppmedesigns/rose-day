@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Happy Rose Day My Love</title>
+    <style>
+        body {
+            background: url('https://source.unsplash.com/1600x900/?roses,flowers') no-repeat center center/cover;
+            text-align: center;
+            color: white;
+            font-family: Arial, sans-serif;
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+        h1 {
+            font-size: 50px;
+            text-shadow: 2px 2px 5px black;
+        }
+        p {
+            font-size: 22px;
+            max-width: 600px;
+            text-shadow: 1px 1px 3px black;
+        }
+        .rose {
+            font-size: 60px;
+            animation: bounce 1s infinite alternate;
+        }
+        @keyframes bounce {
+            from { transform: translateY(0px); }
+            to { transform: translateY(-15px); }
+        }
+        .btn {
+            margin-top: 20px;
+            padding: 10px 20px;
+            font-size: 20px;
+            color: white;
+            background: red;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: 0.3s;
+        }
+        .btn:hover {
+            background: darkred;
+        }
+    </style>
+</head>
+<body>
+    <h1>🌹 Happy Rose Day My Love! 🌹</h1>
+    <p>You are the most beautiful rose in the garden of my life. Your love fills my world with happiness and fragrance. I cherish you every day! ❤️</p>
+    <div class="rose">🌹</div>
+    <button class="btn" onclick="alert('I Love You ❤️')">Click for a Surprise</button>
+</body>
+</html>
